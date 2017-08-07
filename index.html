@@ -11,17 +11,9 @@
     <!--Sign in and add a project "fireMessage"-->
     <!--PASTE SNIPPET HERE-->
 
-
-
-
-    <!--jquery-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Alike+Angular|Asul|Eczar" rel="stylesheet">
 
-    <!--custom files-->
-    <script src="lib/js/main.js"></script>
     <link rel="stylesheet" href="lib/css/style.css">
 
 </head>
@@ -51,5 +43,26 @@
             </div>
         </form>
     </div>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js">
+    </script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyB_IPZXlMq9qeIpjJJ0wpLvBjTXn96S_0U",
+            authDomain: "my-chat-app-3d56d.firebaseapp.com",
+            databaseURL: "https://my-chat-app-3d56d.firebaseio.com",
+            projectId: "my-chat-app-3d56d",
+            storageBucket: "my-chat-app-3d56d.appspot.com",
+            messagingSenderId: "307163868924"
+        };
+        firebase.initializeApp(config);
+
+</script>
+<!--jquery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!--custom files-->
+<script src="lib/js/main.js"></script>
+
 </body>
 </html>
